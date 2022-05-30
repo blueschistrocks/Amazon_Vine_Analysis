@@ -23,6 +23,8 @@ I created an AWS RDS database with tables in pgAdmin and extracted the above ref
 ### "costumer_table"
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/6a5677c565b27a715fe2803f1e804764aff90ca2/Images/Screen%20Shot%202022-05-28%20at%202.34.59%20PM.png)<br>
 
+## Deliverable 2 - Determine Bias of Vine Reviews
+
 To determine if there is bias from Vine members vs non-Vine members the data was filtered to only use rows where the “total_votes” count is equal to or greater than 20 in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on in the analysis. The data was further filtered to retrieve all the rows where the number of “helpful_votes” divided by “total_votes” is equal to or greater than 50%.  The data below was extracted from the data frame, paid indicates a verified purchase. 
 
 #### Helpful
