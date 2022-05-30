@@ -68,15 +68,14 @@ The percentage of Vine and non-Vine reviews were placed in a new data frame usin
 
 ## Summary
 
-- A vast majority of the helful reviews for Furniture are made by non-Vine verified_purchase customers.
-- Vine verified_purchase customers appeared to provide a higher percentage of Five-star rating, therefore some bias from Vine members vs non-Vine members is likely. However, given that they provide fewer that 1% of the overall reviews the potential bias would have a negligible impact.     
+- A vast majority of the helful reviews for Furniture are made by non-Vine customers.
+- Vine customers appeared to provide a higher percentage of Five-star rating, therefore some bias from Vine members vs non-Vine members is likely. However, given that they provide fewer that 1% of the overall reviews the potential bias would have a negligible impact.     
 
 
 ## Recommendations
+I recommend additional analysis overall product types to see if the Vine reviews are similar to the Furniture data set or vary depending on the product type.
 
-
-
-
+# Tools Used
 
 The following were used to complete the analysis:
 -	Spark 
