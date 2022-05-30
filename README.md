@@ -34,14 +34,27 @@ To determine if there is bias from Vine members vs non-Vine members the data was
 
 The counts of Vine and non-Vine reviews were placed in a new data frame using Pandas and plotted on a bar graph using Matplotlib. 
 
+#### Vine and Non-Vine Reviews
+![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.10.14%20PM.png)<br>
+
+![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.10.55%20PM.png)<br>
+
 The percentage of Vine and non-Vine reviews were placed in a new data frame using Pandas and plotted on a bar graph using Matplotlib. 
+
+#### Percentage of Vine and Non-Vine Reviews
+![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.10.31%20PM.png)<br>
+
+![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.11.09%20PM.png)<br>
+
+
+
 The following were used to complete the analysis:
-•	Spark 
-•	PySpark
-•	Python
-•	Pandas
-•	Matplotlib
-•	Google Colaboratory
+-	Spark 
+-	PySpark
+-	Python
+-	Pandas
+-	Matplotlib
+-	Google Colaboratory
 
 
 
