@@ -5,18 +5,22 @@ The purpose of the Challenge was to analyze Amazon Vine reviews written by membe
 [Link to Data Set](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gz)
 
 ## Deliverable 1 - Perform ETL on Amazon Product Reviews 
-I created an AWS RDS database with tables in pgAdmin and extracted the above referenced dataset into a DataFrame. Then transform the DataFrame into four separate DataFrames that match the table schema I used in pgAdmin. Then I upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been properly uploaded. See the images below:
+I created an AWS RDS database with tables in pgAdmin and extracted the above referenced dataset into a DataFrame. Then transform the DataFrame into four separate DataFrames that match the table schema I used in pgAdmin. Then I upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been properly uploaded. See the link and images below:
 
-#### "review_id_table"
+[Link to "Amazon_Review__ETL.ipynb"](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/80db3887602d99bd63ce57bf9eb98071f1625579/Amazon_Reviews_ETL_starter_code.ipynb)
+
+[Link to "Amazon_Review__ETL.ipynb - Colaboratory.pdf"](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/80db3887602d99bd63ce57bf9eb98071f1625579/Amazon_Reviews_ETL.ipynb%20-%20Colaboratory.pdf)
+
+### "review_id_table"
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/6a5677c565b27a715fe2803f1e804764aff90ca2/Images/Screen%20Shot%202022-05-28%20at%202.29.50%20PM.png)<br>
 
-#### "products_table"
+### "products_table"
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/6a5677c565b27a715fe2803f1e804764aff90ca2/Images/Screen%20Shot%202022-05-28%20at%202.35.39%20PM.png)<br>
 
-#### "vine_table"
+### "vine_table"
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/6a5677c565b27a715fe2803f1e804764aff90ca2/Images/Screen%20Shot%202022-05-28%20at%202.36.03%20PM.png)<br>
 
-#### "costumer_table"
+### "costumer_table"
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/6a5677c565b27a715fe2803f1e804764aff90ca2/Images/Screen%20Shot%202022-05-28%20at%202.34.59%20PM.png)<br>
 
 To determine if there is bias from Vine members vs non-Vine members the data was filtered to only use rows where the “total_votes” count is equal to or greater than 20 in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on in the analysis. The data was further filtered to retrieve all the rows where the number of “helpful_votes” divided by “total_votes” is equal to or greater than 50%.  The data below was extracted from the data frame, paid indicates a verified purchase. 
