@@ -80,6 +80,8 @@ I recommend additional analysis overall product types to see if the Vine reviews
 The following were used to complete the analysis:
 -	Spark 
 -	PySpark
+-	AWS RDS
+-	pgAdmin
 -	Python
 -	Pandas
 -	Matplotlib
