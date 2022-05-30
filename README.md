@@ -4,6 +4,12 @@ The purpose of the Challenge was to analyze Amazon Vine reviews written by membe
 
 [Link to Data Set](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gz)
 
+## Deliverable 1 - Perform ETL on Amazon Product Reviews 
+I created an AWS RDS database with tables in pgAdmin and extracted the above referenced dataset into a DataFrame. Then transform the DataFrame into four separate DataFrames that match the table schema I used in pgAdmin. Then I upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been properly uploaded. See the images below:
+
+
+
+
 
 To determine if there is bias from Vine members vs non-Vine members the data was filtered to only use rows where the “total_votes” count is equal to or greater than 20 in order to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on in the analysis. The data was further filtered to retrieve all the rows where the number of “helpful_votes” divided by “total_votes” is equal to or greater than 50%.  The data below was extracted from the data frame, paid indicates a verified purchase. 
 
@@ -42,10 +48,9 @@ The counts of Vine and non-Vine reviews were placed in a new data frame using Pa
 The percentage of Vine and non-Vine reviews were placed in a new data frame using Pandas and plotted on a bar graph using Matplotlib. 
 
 #### Percentage of Vine and Non-Vine Reviews
-![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.10.31%20PM.png)<br>
-
 ![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.11.09%20PM.png)<br>
 
+![image](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/8702ec1eeafafdf8b6191f417b639a3bcb9d261c/Images/Screen%20Shot%202022-05-29%20at%203.10.31%20PM.png)<br>
 
 
 The following were used to complete the analysis:
