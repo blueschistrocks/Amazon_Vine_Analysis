@@ -7,7 +7,7 @@ The purpose of the Challenge was to analyze Amazon Vine reviews written by membe
 ## Deliverable 1 - Perform ETL on Amazon Product Reviews 
 I created an AWS RDS database with tables in pgAdmin and extracted the above referenced dataset into a DataFrame. Then transformed the DataFrame into four separate DataFrames that match the table schema I used in pgAdmin. Then I upload the transformed data into the database tables and ran queries in pgAdmin to confirm that the data has been properly uploaded. See the link and images below:
 
-[Link to "Amazon_Review__ETL.ipynb"](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/80db3887602d99bd63ce57bf9eb98071f1625579/Amazon_Reviews_ETL_starter_code.ipynb)
+[Link to "Amazon_Review__ETL.ipynb"](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/4a47cd27aaa11f737212a19669c45c1d7e097308/Amazon_Reviews_ETL.ipynb)
 
 [Link to "Amazon_Review__ETL.ipynb - Colaboratory.pdf"](https://github.com/blueschistrocks/Amazon_Vine_Analysis/blob/80db3887602d99bd63ce57bf9eb98071f1625579/Amazon_Reviews_ETL.ipynb%20-%20Colaboratory.pdf)
 
